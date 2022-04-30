@@ -1,0 +1,61 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    padding: 0 50px 0 50px;
+}
+.btn-primary{
+    background: orange;
+    border: 0;
+    padding: 15px 40px 15px 40px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.btn-primary:hover{
+    background: rgb(171, 115, 10);
+    border: 0;
+}
+
+.card{
+    position: relative;
+    margin-top: 100px;
+    box-shadow: 5px 7px 13px 0px rgba(0,0,0,0.57);
+    -webkit-box-shadow: 5px 7px 13px 0px rgba(0,0,0,0.57);
+    -moz-box-shadow: 5px 7px 13px 0px rgba(0,0,0,0.57);
+}
+
+.card .hust{
+    margin-left: 500px;
+    
+}
+
+.container{
+    margin-left: 80px;
+
+}
+.hero h1{
+    font-family: 'Poppins';
+    font-weight: 700;
+    color: #2F281E;
+}
+.hero p{
+    font-family: 'Poppins';
+    font-weight: 400;
+    color: #2F281E;
+}
+.hero .test{
+    padding-left: 40px;
+}
+.hero img{
+    transition: 0.2s;  
+    transition-property: all;
+    transition-duration: 500ms;
+}
+
+.hero img:hover{
+    transform: scale(1.1);
+}
+.btn-primary{
+    margin-left: 40px;
+}

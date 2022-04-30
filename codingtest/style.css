@@ -1,0 +1,208 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    font-family: 'poppins';
+}
+
+body{
+    background-color: rgb(242, 246, 253);
+}
+.btn-warning{
+    background: orange;
+    border: 0;
+    padding: 15px 40px 15px 40px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.btn-warning:hover{
+    background: rgb(171, 115, 10);
+    border: 0;
+}
+
+.btn-primary{
+    background: orange;
+    border: 0;
+    padding: 15px 40px 15px 40px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.btn-primary:hover{
+    background: rgb(171, 115, 10);
+    border: 0;
+}
+
+.hero
+{
+    margin-top: 160px;
+    margin-bottom: 100px;
+}
+
+.hero img{
+    transition: 0.2s;
+    filter: grayscale(100%);   
+    transition-property: all;
+    transition-duration: 500ms;
+}
+
+.hero img:hover{
+    transform: scale(1.1);
+    filter: grayscale(0%);
+}
+
+.hero h1{
+    font-family: 'Poppins';
+    font-weight: 700;
+    color: #2F281E;
+}
+.hero p{
+    font-family: 'Poppins';
+    font-weight: 400;
+    color: #2F281E;
+}
+
+.btn-secondary{
+    background: none;
+    border: 1 #19232e;
+    padding: 15px 40px 15px 40px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #173A56;
+}
+
+.btn-secondary:hover{
+    background: black;
+    border: 1 #000000;
+}
+.btn-success{
+    font-family: 'Poppins';
+    font-weight: bold;
+}
+
+.nav-navbar .navbar-link{
+    color: #2F281E;
+}
+.product{
+    margin-top: 160px;
+    margin-bottom: 100px;
+}
+.product h2{
+    font-family: 'Poppins';
+    font-weight: 700;
+    color: #2F281E;
+}
+
+.product .card{
+    transition: 0.3s;
+    transition-property: all;
+    transition-duration: 500ms;
+}
+
+.product .card:hover{
+    transform: scale(1.1);
+}
+
+.sesion{
+    margin-top: 220px;
+}
+
+.sesion h1{
+    font-family: 'Poppins';
+    font-weight: 700;
+    color: #2F281E;
+}
+
+.boost{
+    margin-top: 240px;
+    margin-bottom: 100px;
+}
+
+.boost h1{
+    font-family: 'Poppins';
+    font-weight: 700;
+    color: #2F281E;
+}
+
+.boost .gambar{
+    transition: 0.2s;
+    margin-left: 320px;
+    transition-property: all;
+    transition-duration: 500ms;
+}
+
+.boost .gambar:hover{
+    transform: scale(1.1);
+}
+
+.recommended{
+    margin-top: 160px;
+    margin-bottom: 100px;
+}
+
+.recommended h1{
+    font-weight: 700;
+    font-family: 'poppins';
+    color: #2F281E;
+}
+
+.recommended .card{
+    border: 1 solid;
+    box-shadow: 13px 18px 18px -4px rgba(0,0,0,0.29);
+    -webkit-box-shadow: 13px 18px 18px -4px rgba(0,0,0,0.29);
+    -moz-box-shadow: 13px 18px 18px -4px rgba(0,0,0,0.29);
+}
+
+.build{
+    margin-top: 240px;
+    margin-bottom: 100px;
+}
+
+.build h1{
+    font-family: 'Poppins';
+    font-weight: bold;
+    color: #2F281E;
+}
+.footer footer{
+    margin-left: 50px;
+}
+
+.footer footer .huruf{
+    color: black;
+}
+.footer footer .huruf:hover{
+    color: blue;
+}
+.footer footer .hup{
+    margin-left: 100px;
+}
+
+.footer footer .jumbo{
+    margin-left: 100px;
+    margin-top: 40px;
+}
+
+.footer footer .baru{
+    margin-right: 30px;
+    margin-top: 80px;
+}
+
+.footer footer .hust{
+    margin-right: 120px;
+    margin-top: 0;
+}
+
+@media (max-width: 991.98px) { 
+    .btn-warning .btn-secondary{
+        margin-bottom: 10px;
+        margin-left: 0 !important;
+    }
+ }
+
+@media only screen and (max-width: 768px){
+    .btn-warning .btn-secondary{
+        margin-bottom: 10px;
+        margin-left: 0 !important;
+    }
+}
